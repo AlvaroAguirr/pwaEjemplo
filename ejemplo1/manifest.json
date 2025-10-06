@@ -1,0 +1,44 @@
+{
+    "name":"Mi primer PWA",
+    "short_name":"MIPWA",
+    "start":"index.html",
+    "display":"standalone",
+    "backgroundcolor": "#fffff",
+    "thema_color":"#2312231",
+    "orientation":"portrait",
+    "iconos":[
+
+        {
+
+            "src":"icons/icon-96x96.png",
+            "sizes":"96x96.png",
+            "type":"image/png"
+
+        },
+        {
+            
+            "src":"icons/icon-180x180.png",
+            "sizes":"180x180.png",
+            "type":"image/png"
+
+        },
+        {
+            
+            "src":"icons/icon-192x192.png",
+            "sizes":"192x192.png",
+            "type":"image/png"
+
+        },
+
+
+        {
+            
+            "src":"icons/icon-512x512.png",
+            "sizes":"512x512.png",
+            "type":"image/png"
+
+        }
+    ]
+
+
+}
