@@ -6,7 +6,7 @@ const { cache } = require("react");
 
 const CACHE_NAME=   "Mi-pwa-cache-v1"
 
-const BASE_PATH="/pwaEjemplo/"
+const BASE_PATH="pwaEjemplo/"
 
 const urlsToCache = [
     `${BASE_PATH}index.html`,
