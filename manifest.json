@@ -4,10 +4,10 @@
     "start_url":"pwaEjemplo/index.html",
     "scope":"pwaEjemplo/",
     "display":"standalone",
-    "backgroundcolor": "#fffff",
-    "thema_color":"#2312231",
+    "background_color": "#ffffff",
+    "theme_color":"#231231",
     "orientation":"portrait",
-    "iconos":[
+    "icons":[
 
         {
 
@@ -18,7 +18,7 @@
         },
         {
             
-            "src":"/pwaEjemplo/cons/icon-180x180.png",
+            "src":"/pwaEjemplo/icons/icon-180x180.png",
             "sizes":"180x180.png",
             "type":"image/png"
 

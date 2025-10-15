@@ -7,7 +7,7 @@
 
     <!-- vincular el manifest -->
     <link rel="manifest" href="pwaEjemplo/manifest.json">
-    <meta name="theme-color" content= "#2312231">
+    <meta name="theme-color" content= "#231231">
 </head>
 <body>
 
@@ -22,7 +22,7 @@
 
 <script>
 
-if("serviceworker" in navigator){
+if("serviceWorker" in navigator){
     navigator.serviceWorker.register("pwaEjemplo/sw.js")
     .then(reg=> console.log("service worker regtistrado"))
     .catch(err => console.log("Error el registrar el service worker"))

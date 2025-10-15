@@ -1,6 +1,6 @@
 // plantilla de servie worker
 
-const { cache } = require("react");
+// const { cache } = require("react");
 
 // 1. el nombre del servicio y los archvios a cachear 
 
@@ -21,7 +21,7 @@ const urlsToCache = [
 // se diapara la oprimera vez que se registra el service worker 
 self.addEventListener("install", event => {
     event.waitUntil(
-        caches.open(CACHE_NAME).then(cache.addAll(urlsToCache))
+        caches.open(CACHE_NAME).then(cache => cache.addAll(urlsToCache))
     );
 
 });
@@ -46,10 +46,10 @@ self.addEventListener("activate", event => {
 // busca primero el cache, y si el recurso no esta , va a la red 
 // si todo falla , muestra offline.hmtl
 self.addEventListener("fetch", event => {
-    event.respondwith(
+    event.respondWith(
       caches.match(event.request).then(response=> {
         return response || fetch(event.request).catch(
-            ()=> catches.match(`${BASE_PATH}offline.html`)); 
+            ()=> caches.match(`${BASE_PATH}offline.html`)); 
       })  
     );
 });
