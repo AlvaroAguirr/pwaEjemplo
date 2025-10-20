@@ -13,8 +13,8 @@ const urlsToCache = [
     `${BASE_PATH}style.css`,    
     `${BASE_PATH}app.js`,
     `${BASE_PATH}offline.html`,
-    `${BASE_PATH}icon/icon-192x192.png`,
-    `${BASE_PATH}icon/icon-512x512.png`
+    `${BASE_PATH}icons/icon-192x192.png`,
+    `${BASE_PATH}icons/icon-512x512.png`
 ]
 
 // 2. install  -> el evento que se ejecuta al instalar el swe
