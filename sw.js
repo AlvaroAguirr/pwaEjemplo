@@ -10,7 +10,6 @@ const BASE_PATH="/pwaEjemplo/"
 
 const urlsToCache = [
     `${BASE_PATH}index.html`,
-    `${BASE_PATH}style.css`,    
     `${BASE_PATH}app.js`,
     `${BASE_PATH}offline.html`,
     `${BASE_PATH}icons/icon-192x192.png`,
